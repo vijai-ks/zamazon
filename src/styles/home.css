@@ -1,8 +1,16 @@
 .home__image {
+  margin: 0 auto -150px auto;
   mask-image: linear-gradient(
     to bottom,
     var(--bg-dark-box-shadow),
     var(--bg-light-box-shadow)
   );
   width: 100%;
+  z-index: -1;
+}
+
+.home__products {
+  display: flex;
+  margin: 0 5px;
+  z-index: 1;
 }

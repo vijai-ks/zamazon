@@ -4,6 +4,11 @@
 
   --bg-dark-black: #131921;
   --bg-dark-yellow: #cd9042;
+  --bg-yellow: #f0c14b;
+  --bg-pale-yellow-text: #a88734;
+  --bg-dark-yellow-text: #846a29;
+  --bg-medium-yellow-text: #9c7e31;
+  --bg-light-grey: rgba(234, 237, 237);
   --bg-dark-box-shadow: rgba(0, 0, 0, 1);
   --bg-light-box-shadow: rgba(0, 0, 0, 0);
   --bg-box-shadow: rgba(0, 0, 0, 0.34);
