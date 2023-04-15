@@ -32,4 +32,5 @@
   border: 1px solid;
   border-color: var(--bg-pale-yellow-text) var(--bg-medium-yellow-text)
     var(--bg-dark-yellow-text);
+  cursor: pointer;
 }
