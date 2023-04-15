@@ -4,6 +4,8 @@
 
   --bg-dark-black: #131921;
   --bg-dark-yellow: #cd9042;
+  --bg-dark-box-shadow: rgba(0, 0, 0, 1);
+  --bg-light-box-shadow: rgba(0, 0, 0, 0);
   --bg-box-shadow: rgba(0, 0, 0, 0.34);
 
   --bg-grey-tile: #2e2e2e;
