@@ -1,5 +1,15 @@
+import trackpant from "../assets/trackpant.jpg";
+
 export const initialState = {
-  basket: [],
+  basket: [
+    {
+      id: "10",
+      title: "Tockey Men Track Pant",
+      price: 200,
+      rating: 5,
+      image: trackpant,
+    },
+  ],
   user: null,
 };
 
@@ -9,7 +19,14 @@ export const reducer = (state, action) => {
       return { ...state, basket: [...state.basket, action.payload] };
 
     case "REMOVE_FROM_CART":
-      return { state };
+      let newBasket = [...state.basket];
+      let index = state.basket.findIndex(
+        (basketItem) => basketItem.id === action.id
+      );
+      if (index >= 0) {
+        newBasket.splice(index, 1);
+      }
+      return { ...state, basket: newBasket };
 
     default:
       return { state };
